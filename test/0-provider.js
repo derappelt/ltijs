@@ -9,8 +9,8 @@ chai.use(chaiAsPromised)
 const expect = chai.expect
 const path = require('path')
 
-const lti = require('../dist/Provider/Provider')
-const Platform = require('../dist/Utils/Platform')
+const lti = require('../dist/Provider')
+const Platform = require('../dist/Provider').Platform
 
 const appRoute = '/approute'
 const loginRoute = '/loginroute'

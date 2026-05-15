@@ -116,7 +116,7 @@ const signToken = (token, kid) => {
   return jwt.sign(token, key, { algorithm: 'RS256', keyid: kid, allowInsecureKeySizes: true })
 }
 
-const lti = require('../dist/Provider/Provider')
+const lti = require('../dist/Provider')
 
 before(async function () {
   const chaiHttp = await import('chai-http')

@@ -1090,4 +1090,6 @@ class Provider {
   }
 }
 
-module.exports = new Provider()
+const instance = new Provider()
+module.exports = instance
+module.exports.Platform = Platform
