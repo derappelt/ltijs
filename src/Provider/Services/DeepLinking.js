@@ -5,7 +5,7 @@ const provDeepLinkingDebug = require('debug')('provider:deepLinkingService')
 const path = require('path')
 const { sprightly } = require('sprightly')
 
-const deepLinkSubmissionForm = path.join(__dirname, '../../Templates', 'DeepLinkSubmissionForm.html')
+const deepLinkSubmissionForm = path.join(__dirname, 'Templates', 'DeepLinkSubmissionForm.html')
 
 class DeepLinking {
   #getPlatform = null
